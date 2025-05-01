@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Mode</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+          <img src="logo\logo.png.webp" alt="SavoryNest Logo">
+        </div>
+      
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <nav class="nav-links" id="navLinks">
+          <a href="#">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+          <button class="fancy-btn">Order Online</button>
+        </nav>
+      </header>
+      
+      
+    
+    <!-- body -->
+    <section class="hero">
+        <div class="hero-content">
+          <span class="sub-heading">Discover Your Taste</span>
+          <h1>We believe good food<br>offer great smile</h1>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat is aute irure.</p>
+          <button class="btn-reserve">Reservation</button>
+        </div>
+      </section>
+      <section class="about-section" id="about">
+        <div class="container">
+          <!-- Left content -->
+          <div class="about-content">
+            <span class="sub-heading">Discover Your Test</span>
+            <h2>We Provide Good Food<br>For Your Family!</h2>
+            <p>
+              Ut enim ad minim veniam, quxcis nostrud exercitation ullamco laboris
+              nisi ufsit aliquip ex ea commodo consequat is aute irure m, quis nostrud
+              exer.
+            </p>
+      
+            <div class="features-grid">
+              <div class="feature">
+                <img src="logo\foodlogo1.png" alt="Chef Icon">
+                <p>Ut enim ad minim veniam, quis nostrud exer.</p>
+              </div>
+              <div class="feature">
+                <img src="logo\50862.jpg" alt="Utensils Icon">
+                <p>Ut enim ad minim veniam, quis nostrud exer.</p>
+              </div>
+              <div class="feature">
+                <img src="banners\di_an_h-f-Y7sAUSX2M-unsplash.jpg" alt="Heart Icon">
+                <p>Ut enim ad minim veniam, quis nostrud exer.</p>
+              </div>
+              <div class="feature">
+                <img src="banners\sam-moghadam-hHEP-_WPQGg-unsplash.jpg" alt="Spoon & Fork Icon">
+                <p>Ut enim ad minim veniam, quis nostrud exer.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Right image -->
+          <div class="about-image">
+            <img src="Pictures\louis-hansel-v3OlBE6-fhU-unsplash.jpg" alt="Chef at work">
+          </div>
+        </div>
+      </section>
+
+
+      <!-- menu section  -->
+      <section id="menu">
+        <div class="menu-banner">
+          <img src="banners\banner1.png" alt="Food Banner">
+        </div>
+      
+        <div class="slider-container">
+          <div class="slider">
+            <img src="banners\di_an_h-f-Y7sAUSX2M-unsplash.jpg" alt="Food 1">
+            <img src="banners\amel-majanovic-faXdt9IzgSE-unsplash.jpg" alt="Food 2">
+            <img src="banners\sam-moghadam-hHEP-_WPQGg-unsplash.jpg" alt="Food 3">
+            <img src="Pictures\hamza-nouasria-wDmonD01Q2U-unsplash.jpg" alt="Food 3">
+            <img src="Pictures\hamza-nouasria-dLfvs2R05cs-unsplash.jpg" alt="Food">
+            <img src="Pictures\fukayamamo-ZrszvAFfT-I-unsplash.jpg" alt="Food">
+            <img src="Pictures\hamza-nouasria-BRnNef8J_Kc-unsplash.jpg" alt="Food">
+            <img src="Pictures\eaters-collective-12eHC6FxPyg-unsplash.jpg" alt="Food">
+            <img src="Pictures\louis-hansel-d0UEoXDvJ5I-unsplash.jpg" alt="Food">
+            <img src="Pictures\farhad-ibrahimzade-Sk6my6_KTK0-unsplash.jpg" alt="Food">
+            <!-- Add more images as needed -->
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Contact us -->
+      <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? We'd love to hear from you!</p>
+  
+      <form class="contact-form">
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+      <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+      
+        hamburger.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
+      </script>
+      
+      
+</body>
+</html>
